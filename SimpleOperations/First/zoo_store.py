@@ -1,3 +1,4 @@
+#Hom much does it cost /float second decimal 2.22/
 dogs = int(input())
 other = int(input())
 
