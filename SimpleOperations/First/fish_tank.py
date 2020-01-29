@@ -1,3 +1,4 @@
+#How much water is there in a fish tank?
 l = int(input())
 w = int(input())
 h = int(input())
