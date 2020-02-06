@@ -10,7 +10,7 @@ def display_board(board):
 def player_input():
     marker = ''
     while not (marker == 'X' or marker == 'O'):
-        marker = input('Player1: Choose X or O: ').upper()
+        marker = input('Star with X or O: (x/o) ').upper()
 
     if marker == 'X':
         return ('X','O')
