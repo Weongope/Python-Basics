@@ -1,6 +1,6 @@
 class Cylinder():
 
-   # Cylinder.pi = 3.14
+    pi = 3.14
 
     def __init__(self, height = 1, radius = 1):
         self.height = height
@@ -8,10 +8,10 @@ class Cylinder():
 
 
     def volume(self):
-        return 3.14 * self.radius ** 2 * self.height
+        return self.pi * self.radius ** 2 * self.height
 
     def surface_area(self):
-        return (2 * 3.14 * self.radius) * (self.radius + self.height)
+        return (2 * self.pi * self.radius) * (self.radius + self.height)
 
 c = Cylinder(2,3)
 print(c.surface_area())
